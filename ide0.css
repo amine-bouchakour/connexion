@@ -1,0 +1,50 @@
+.body{
+	background-image: url("https://bit.ly/356v0oE");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-decoration-color: #2B66EF;
+	color: white;
+	text-shadow: 1px 2px 3px rgba(0,0,0, 0.5);
+}
+
+
+
+a:link{
+text-decoration:none;
+}
+
+
+div{
+	text-decoration-color: #2B66EF;
+	text-shadow: 1.5px 1.5px gold;
+}
+
+
+#sans{
+	text-decoration: none;
+	text-align: center;
+	font-size: x-large;
+}
+
+a{
+	text-decoration: none;
+}
+
+.p1 {
+  animation-duration: 8s;
+  animation-name: slidein;
+  color:gold;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30000%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
